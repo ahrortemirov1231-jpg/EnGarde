@@ -1,0 +1,35 @@
+# ---- never in GitHub: videos, labels, anything from the sponsor ----
+data/
+data_tim/
+tim_data/
+demo_data*/
+shared_labels/
+*.sqlite
+*.sqlite-*
+*.before-v*
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+
+# ---- large or machine-specific ----
+.venv/
+weights/*.pt
+frontend/node_modules/
+frontend/tsconfig.tsbuildinfo
+__pycache__/
+*.pyc
+.pytest_cache/
+demo_data_load.json
+*.log
+.DS_Store
+Thumbs.db
+
+# frontend/dist IS committed on purpose: teammates can run the app without installing Node.
+
+# bulk import drop folder (videos stay off GitHub)
+incoming/
+
+# browser sign-in exports for the USA Fencing downloader: private
+cookies.txt

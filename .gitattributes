@@ -1,0 +1,13 @@
+# Windows launchers need CRLF, Mac launchers and shell scripts need LF, whoever commits them.
+*.bat      text eol=crlf
+*.command  text eol=lf
+*.sh       text eol=lf
+*.py       text eol=lf
+*.ts       text eol=lf
+*.tsx      text eol=lf
+*.css      text eol=lf
+*.md       text eol=lf
+*.json     text eol=lf
+*.pt       binary
+*.woff     binary
+*.woff2    binary

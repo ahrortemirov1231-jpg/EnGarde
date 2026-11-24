@@ -1,0 +1,19 @@
+# Python 3.11+ (tested on 3.13.17). System: ffmpeg/ffprobe >= 6 on PATH.
+# CPU-only torch is enough. On Linux, install it first from the CPU index to avoid CUDA wheels:
+#   pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+fastapi==0.162.0
+uvicorn==0.54.0
+python-multipart==0.0.32
+pydantic==2.13.5
+numpy==2.5.3
+pandas==3.0.5
+pyarrow==26.0.0
+opencv-python-headless==5.0.0.93
+ultralytics==8.4.188
+torch==2.14.1
+lap==0.5.13
+xgboost==3.4.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+pytest==9.1.1
+httpx==0.28.1
